@@ -1,0 +1,434 @@
+2021-12-14 20:50:20 1556 [Note] Plugin 'FEDERATED' is disabled.
+2021-12-14 20:50:20 1556 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-12-14 20:50:20 1556 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-12-14 20:50:20 1556 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-12-14 20:50:20 1556 [Note] InnoDB: Not using CPU crc32 instructions
+2021-12-14 20:50:20 1556 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2021-12-14 20:50:20 1556 [Note] InnoDB: Completed initialization of buffer pool
+2021-12-14 20:50:20 520  InnoDB: Operating system error number 87 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+2021-12-14 20:50:20 520  InnoDB: File name Z:\ArGit\AD\Ejemplos Maria\USBWebserver v8.6\mysql\data\ibdata1
+2021-12-14 20:50:20 520  InnoDB: File operation call: 'stat' returned OS error 187.
+2021-12-14 20:50:20 1556 [ERROR] InnoDB: os_file_get_status() failed on 'Z:\ArGit\AD\Ejemplos Maria\USBWebserver v8.6\mysql\data\ibdata1'. Can't determine file permissions
+2021-12-14 20:50:20 1556 [ERROR] InnoDB: The system tablespace must be writable!
+2021-12-14 20:50:20 1556 [ERROR] Plugin 'InnoDB' init function returned error.
+2021-12-14 20:50:20 1556 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2021-12-14 20:50:20 1556 [ERROR] Unknown/unsupported storage engine: InnoDB
+2021-12-14 20:50:20 1556 [ERROR] Aborting
+
+2021-12-14 20:50:20 1556 [Note] Binlog end
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'partition'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_METRICS'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_CMP'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_LOCKS'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'INNODB_TRX'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'BLACKHOLE'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'ARCHIVE'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'MRG_MYISAM'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'MyISAM'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'MEMORY'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'CSV'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'sha256_password'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'mysql_old_password'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'mysql_native_password'
+2021-12-14 20:50:20 1556 [Note] Shutting down plugin 'binlog'
+2021-12-14 20:50:20 1556 [Note] Z:\ArGit\AD\Ejemplos Maria\USBWebserver v8.6/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+
+2021-12-14 20:50:29 9476 [Note] Plugin 'FEDERATED' is disabled.
+2021-12-14 20:50:29 9476 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-12-14 20:50:29 9476 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-12-14 20:50:29 9476 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-12-14 20:50:29 9476 [Note] InnoDB: Not using CPU crc32 instructions
+2021-12-14 20:50:29 9476 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2021-12-14 20:50:29 9476 [Note] InnoDB: Completed initialization of buffer pool
+2021-12-14 20:50:29 1f04  InnoDB: Operating system error number 87 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+2021-12-14 20:50:29 1f04  InnoDB: File name Z:\ArGit\AD\Ejemplos Maria\USBWebserver v8.6\mysql\data\ibdata1
+2021-12-14 20:50:29 1f04  InnoDB: File operation call: 'stat' returned OS error 187.
+2021-12-14 20:50:29 9476 [ERROR] InnoDB: os_file_get_status() failed on 'Z:\ArGit\AD\Ejemplos Maria\USBWebserver v8.6\mysql\data\ibdata1'. Can't determine file permissions
+2021-12-14 20:50:29 9476 [ERROR] InnoDB: The system tablespace must be writable!
+2021-12-14 20:50:29 9476 [ERROR] Plugin 'InnoDB' init function returned error.
+2021-12-14 20:50:29 9476 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2021-12-14 20:50:29 9476 [ERROR] Unknown/unsupported storage engine: InnoDB
+2021-12-14 20:50:29 9476 [ERROR] Aborting
+
+2021-12-14 20:50:29 9476 [Note] Binlog end
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'partition'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_METRICS'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_CMP'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_LOCKS'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'INNODB_TRX'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'BLACKHOLE'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'ARCHIVE'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'MRG_MYISAM'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'MyISAM'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'MEMORY'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'CSV'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'sha256_password'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'mysql_old_password'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'mysql_native_password'
+2021-12-14 20:50:29 9476 [Note] Shutting down plugin 'binlog'
+2021-12-14 20:50:29 9476 [Note] Z:\ArGit\AD\Ejemplos Maria\USBWebserver v8.6/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+
+2021-12-14 20:50:36 4196 [Note] Plugin 'FEDERATED' is disabled.
+2021-12-14 20:50:36 4196 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-12-14 20:50:36 4196 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-12-14 20:50:36 4196 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-12-14 20:50:36 4196 [Note] InnoDB: Not using CPU crc32 instructions
+2021-12-14 20:50:36 4196 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2021-12-14 20:50:36 4196 [Note] InnoDB: Completed initialization of buffer pool
+2021-12-14 20:50:36 2304  InnoDB: Operating system error number 87 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+2021-12-14 20:50:36 2304  InnoDB: File name Z:\ArGit\AD\Ejemplos Maria\USBWebserver v8.6\mysql\data\ibdata1
+2021-12-14 20:50:36 2304  InnoDB: File operation call: 'stat' returned OS error 187.
+2021-12-14 20:50:36 4196 [ERROR] InnoDB: os_file_get_status() failed on 'Z:\ArGit\AD\Ejemplos Maria\USBWebserver v8.6\mysql\data\ibdata1'. Can't determine file permissions
+2021-12-14 20:50:36 4196 [ERROR] InnoDB: The system tablespace must be writable!
+2021-12-14 20:50:36 4196 [ERROR] Plugin 'InnoDB' init function returned error.
+2021-12-14 20:50:36 4196 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2021-12-14 20:50:36 4196 [ERROR] Unknown/unsupported storage engine: InnoDB
+2021-12-14 20:50:36 4196 [ERROR] Aborting
+
+2021-12-14 20:50:36 4196 [Note] Binlog end
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'partition'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_METRICS'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_CMP'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_LOCKS'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'INNODB_TRX'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'BLACKHOLE'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'ARCHIVE'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'MRG_MYISAM'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'MyISAM'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'MEMORY'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'CSV'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'sha256_password'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'mysql_old_password'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'mysql_native_password'
+2021-12-14 20:50:36 4196 [Note] Shutting down plugin 'binlog'
+2021-12-14 20:50:36 4196 [Note] Z:\ArGit\AD\Ejemplos Maria\USBWebserver v8.6/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+
+2021-12-14 20:50:57 7144 [Note] Plugin 'FEDERATED' is disabled.
+2021-12-14 20:50:58 7144 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-12-14 20:50:58 7144 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-12-14 20:50:58 7144 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-12-14 20:50:58 7144 [Note] InnoDB: Not using CPU crc32 instructions
+2021-12-14 20:50:58 7144 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2021-12-14 20:50:58 7144 [Note] InnoDB: Completed initialization of buffer pool
+2021-12-14 20:50:58 2f88  InnoDB: Operating system error number 87 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+2021-12-14 20:50:58 2f88  InnoDB: File name Z:\ArGit\AD\Ejemplos Maria\USBWebserver v8.6\mysql\data\ibdata1
+2021-12-14 20:50:58 2f88  InnoDB: File operation call: 'stat' returned OS error 187.
+2021-12-14 20:50:58 7144 [ERROR] InnoDB: os_file_get_status() failed on 'Z:\ArGit\AD\Ejemplos Maria\USBWebserver v8.6\mysql\data\ibdata1'. Can't determine file permissions
+2021-12-14 20:50:58 7144 [ERROR] InnoDB: The system tablespace must be writable!
+2021-12-14 20:50:58 7144 [ERROR] Plugin 'InnoDB' init function returned error.
+2021-12-14 20:50:58 7144 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2021-12-14 20:50:58 7144 [ERROR] Unknown/unsupported storage engine: InnoDB
+2021-12-14 20:50:58 7144 [ERROR] Aborting
+
+2021-12-14 20:50:58 7144 [Note] Binlog end
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'partition'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_METRICS'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_CMP'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_LOCKS'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'INNODB_TRX'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'BLACKHOLE'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'ARCHIVE'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'MRG_MYISAM'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'MyISAM'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'MEMORY'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'CSV'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'sha256_password'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'mysql_old_password'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'mysql_native_password'
+2021-12-14 20:50:58 7144 [Note] Shutting down plugin 'binlog'
+2021-12-14 20:50:58 7144 [Note] Z:\ArGit\AD\Ejemplos Maria\USBWebserver v8.6/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+
+2021-12-14 20:51:06 10424 [Note] Plugin 'FEDERATED' is disabled.
+2021-12-14 20:51:06 10424 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-12-14 20:51:06 10424 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-12-14 20:51:06 10424 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-12-14 20:51:06 10424 [Note] InnoDB: Not using CPU crc32 instructions
+2021-12-14 20:51:06 10424 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2021-12-14 20:51:06 10424 [Note] InnoDB: Completed initialization of buffer pool
+2021-12-14 20:51:06 2834  InnoDB: Operating system error number 87 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+2021-12-14 20:51:06 2834  InnoDB: File name Z:\ArGit\AD\Ejemplos Maria\USBWebserver v8.6\mysql\data\ibdata1
+2021-12-14 20:51:06 2834  InnoDB: File operation call: 'stat' returned OS error 187.
+2021-12-14 20:51:06 10424 [ERROR] InnoDB: os_file_get_status() failed on 'Z:\ArGit\AD\Ejemplos Maria\USBWebserver v8.6\mysql\data\ibdata1'. Can't determine file permissions
+2021-12-14 20:51:06 10424 [ERROR] InnoDB: The system tablespace must be writable!
+2021-12-14 20:51:06 10424 [ERROR] Plugin 'InnoDB' init function returned error.
+2021-12-14 20:51:06 10424 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2021-12-14 20:51:06 10424 [ERROR] Unknown/unsupported storage engine: InnoDB
+2021-12-14 20:51:06 10424 [ERROR] Aborting
+
+2021-12-14 20:51:06 10424 [Note] Binlog end
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'partition'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_METRICS'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_CMP'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_LOCKS'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'INNODB_TRX'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'BLACKHOLE'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'ARCHIVE'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'MRG_MYISAM'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'MyISAM'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'MEMORY'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'CSV'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'sha256_password'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'mysql_old_password'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'mysql_native_password'
+2021-12-14 20:51:06 10424 [Note] Shutting down plugin 'binlog'
+2021-12-14 20:51:06 10424 [Note] Z:\ArGit\AD\Ejemplos Maria\USBWebserver v8.6/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+
+2021-12-14 20:51:15 6672 [Note] Plugin 'FEDERATED' is disabled.
+2021-12-14 20:51:15 6672 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-12-14 20:51:15 6672 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-12-14 20:51:15 6672 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-12-14 20:51:15 6672 [Note] InnoDB: Not using CPU crc32 instructions
+2021-12-14 20:51:15 6672 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2021-12-14 20:51:15 6672 [Note] InnoDB: Completed initialization of buffer pool
+2021-12-14 20:51:15 11ec  InnoDB: Operating system error number 87 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+2021-12-14 20:51:15 11ec  InnoDB: File name Z:\ArGit\AD\Ejemplos Maria\USBWebserver v8.6\mysql\data\ibdata1
+2021-12-14 20:51:15 11ec  InnoDB: File operation call: 'stat' returned OS error 187.
+2021-12-14 20:51:15 6672 [ERROR] InnoDB: os_file_get_status() failed on 'Z:\ArGit\AD\Ejemplos Maria\USBWebserver v8.6\mysql\data\ibdata1'. Can't determine file permissions
+2021-12-14 20:51:15 6672 [ERROR] InnoDB: The system tablespace must be writable!
+2021-12-14 20:51:15 6672 [ERROR] Plugin 'InnoDB' init function returned error.
+2021-12-14 20:51:15 6672 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2021-12-14 20:51:15 6672 [ERROR] Unknown/unsupported storage engine: InnoDB
+2021-12-14 20:51:15 6672 [ERROR] Aborting
+
+2021-12-14 20:51:15 6672 [Note] Binlog end
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'partition'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_METRICS'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_CMP'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_LOCKS'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'INNODB_TRX'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'BLACKHOLE'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'ARCHIVE'
+2021-12-14 20:51:15 6672 [Note] Shutting down plugin 'MRG_MYISAM'
+2021-12-14 20:51:16 6672 [Note] Shutting down plugin 'MyISAM'
+2021-12-14 20:51:16 6672 [Note] Shutting down plugin 'MEMORY'
+2021-12-14 20:51:16 6672 [Note] Shutting down plugin 'CSV'
+2021-12-14 20:51:16 6672 [Note] Shutting down plugin 'sha256_password'
+2021-12-14 20:51:16 6672 [Note] Shutting down plugin 'mysql_old_password'
+2021-12-14 20:51:16 6672 [Note] Shutting down plugin 'mysql_native_password'
+2021-12-14 20:51:16 6672 [Note] Shutting down plugin 'binlog'
+2021-12-14 20:51:16 6672 [Note] Z:\ArGit\AD\Ejemplos Maria\USBWebserver v8.6/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+
+2021-12-14 20:51:37 9120 [Note] Plugin 'FEDERATED' is disabled.
+2021-12-14 20:51:37 9120 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-12-14 20:51:37 9120 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-12-14 20:51:37 9120 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-12-14 20:51:37 9120 [Note] InnoDB: Not using CPU crc32 instructions
+2021-12-14 20:51:37 9120 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2021-12-14 20:51:37 9120 [Note] InnoDB: Completed initialization of buffer pool
+2021-12-14 20:51:37 2dc  InnoDB: Operating system error number 87 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+2021-12-14 20:51:37 2dc  InnoDB: File name Z:\ArGit\AD\Ejemplos Maria\USBWebserver v8.6\mysql\data\ibdata1
+2021-12-14 20:51:37 2dc  InnoDB: File operation call: 'stat' returned OS error 187.
+2021-12-14 20:51:37 9120 [ERROR] InnoDB: os_file_get_status() failed on 'Z:\ArGit\AD\Ejemplos Maria\USBWebserver v8.6\mysql\data\ibdata1'. Can't determine file permissions
+2021-12-14 20:51:37 9120 [ERROR] InnoDB: The system tablespace must be writable!
+2021-12-14 20:51:37 9120 [ERROR] Plugin 'InnoDB' init function returned error.
+2021-12-14 20:51:37 9120 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2021-12-14 20:51:37 9120 [ERROR] Unknown/unsupported storage engine: InnoDB
+2021-12-14 20:51:37 9120 [ERROR] Aborting
+
+2021-12-14 20:51:37 9120 [Note] Binlog end
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'partition'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_METRICS'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_CMP'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_LOCKS'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'INNODB_TRX'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'BLACKHOLE'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'ARCHIVE'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'MRG_MYISAM'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'MyISAM'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'MEMORY'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'CSV'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'sha256_password'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'mysql_old_password'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'mysql_native_password'
+2021-12-14 20:51:37 9120 [Note] Shutting down plugin 'binlog'
+2021-12-14 20:51:37 9120 [Note] Z:\ArGit\AD\Ejemplos Maria\USBWebserver v8.6/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+
