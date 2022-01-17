@@ -1,5 +1,5 @@
-[Wed Jan 12 16:42:36.379830 2022] [mpm_winnt:notice] [pid 12072:tid 768] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
-[Wed Jan 12 16:42:36.379830 2022] [mpm_winnt:notice] [pid 12072:tid 768] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
-[Wed Jan 12 16:42:36.379830 2022] [core:notice] [pid 12072:tid 768] AH00094: Command line: 'C:\\Users\\a20armandocb\\Documents\\Git-Ar\\USBWebserver v8.6/apache2/bin/httpd_usbwv8.exe -d C:/Users/a20armandocb/Documents/Git-Ar/USBWebserver v8.6/apache2'
-[Wed Jan 12 16:42:36.383479 2022] [mpm_winnt:notice] [pid 12072:tid 768] AH00418: Parent: Created child process 8292
-[Wed Jan 12 16:42:36.704858 2022] [mpm_winnt:notice] [pid 8292:tid 736] AH00354: Child: Starting 64 worker threads.
+[Mon Jan 17 21:29:49.735717 2022] [mpm_winnt:notice] [pid 7228:tid 756] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Mon Jan 17 21:29:49.735717 2022] [mpm_winnt:notice] [pid 7228:tid 756] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Mon Jan 17 21:29:49.735717 2022] [core:notice] [pid 7228:tid 756] AH00094: Command line: 'C:\\Users\\a20armandocb\\Documents\\Git-Ar\\USBWebserver v8.6/apache2/bin/httpd_usbwv8.exe -d C:/Users/a20armandocb/Documents/Git-Ar/USBWebserver v8.6/apache2'
+[Mon Jan 17 21:29:49.736715 2022] [mpm_winnt:notice] [pid 7228:tid 756] AH00418: Parent: Created child process 13696
+[Mon Jan 17 21:29:50.067781 2022] [mpm_winnt:notice] [pid 13696:tid 760] AH00354: Child: Starting 64 worker threads.
