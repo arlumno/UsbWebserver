@@ -1,4 +1,5 @@
-[Tue Feb 15 18:44:18.903562 2022] [mpm_winnt:notice] [pid 2848:tid 748] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
-[Tue Feb 15 18:44:18.903562 2022] [mpm_winnt:notice] [pid 2848:tid 748] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
-[Tue Feb 15 18:44:18.903562 2022] [core:notice] [pid 2848:tid 748] AH00094: Command line: 'C:\\Users\\a20armandocb\\Documents\\Git-Ar\\UsbWebserver/apache2/bin/httpd_usbwv8.exe -d C:/Users/a20armandocb/Documents/Git-Ar/UsbWebserver/apache2'
-[Tue Feb 15 18:44:18.904895 2022] [mpm_winnt:notice] [pid 2848:tid 748] AH00418: Parent: Created child process 4248
+[Thu Mar 03 12:48:35.390620 2022] [mpm_winnt:notice] [pid 15316:tid 776] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Thu Mar 03 12:48:35.391149 2022] [mpm_winnt:notice] [pid 15316:tid 776] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Thu Mar 03 12:48:35.391149 2022] [core:notice] [pid 15316:tid 776] AH00094: Command line: 'C:\\Users\\Arsito\\Documents\\proyectos git\\UsbWebserver/apache2/bin/httpd_usbwv8.exe -d C:/Users/Arsito/Documents/proyectos git/UsbWebserver/apache2'
+[Thu Mar 03 12:48:35.400085 2022] [mpm_winnt:notice] [pid 15316:tid 776] AH00418: Parent: Created child process 2208
+[Thu Mar 03 12:48:36.495061 2022] [mpm_winnt:notice] [pid 2208:tid 776] AH00354: Child: Starting 64 worker threads.
